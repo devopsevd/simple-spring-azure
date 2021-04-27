@@ -3,7 +3,7 @@ version: '2'
 services:
   tomcat:
     build: .
-    image: spimple-spring-app
+    image: simple-spring-app
     ports:
       - 3000:8080
       - 10000:10000
